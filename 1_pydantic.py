@@ -1,4 +1,4 @@
-from pydantic import BaseModel,EmailStr,AnyUrl,Field
+from pydantic import BaseModel,Field
 from typing import List,Dict,Optional,Annotated
 
 class patient(BaseModel):
