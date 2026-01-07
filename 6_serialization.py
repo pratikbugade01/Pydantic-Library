@@ -22,10 +22,6 @@ patient_dect ={'name':'pratik','gender':'male','age':'20','address':Address1}
 
 patient1 = patient(**patient_dect)
 
-print(patient1)
-print(patient1.address.pin)
-
-
 temp = patient1.model_dump(include=['name'])
 
 print(temp)
